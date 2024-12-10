@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/nathan-logo.png" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Contact | Nathan Romeri</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/nathan-logo.png" class="logo-nr" alt="Nathan Romeri Logo">
+        </a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://www.instagram.com/nathan_romeri?igsh=ZHdxdzYwa2lyZHpj&utm_source=qr" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nathan-romeri-b53630311/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Nathan-Romeri" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://discord.gg/BbvsUZm3jm" target="_blank" title="Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="section-banner">
+        <div class="banner-content">
+            <h1>Contact</h1>
+            <p>Get in touch with me via social media or send me an email.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="boxed">
+            <h1>Send me an email</h1>
+            <form id="form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject <span class="required">*</span></label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Phone">
+                </div>
+                <button type="submit" id="button" class="btn">Send Email</button>
+                <p id="form-message" class="form-message"></p>
+            </form>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+            <script type="text/javascript">emailjs.init('A-rE2ySSipAKOQyuc')</script>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-copyright">&copy; 2024 Nathan Romeri</p>
+            <div class="back-to-top" onclick="scrollToTop()">
+                <span>^</span>
+            </div>
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

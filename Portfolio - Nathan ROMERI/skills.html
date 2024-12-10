@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/nathan-logo.png" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Skills | Nathan Romeri</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/nathan-logo.png" class="logo-nr" alt="Nathan Romeri Logo">
+        </a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://www.instagram.com/nathan_romeri?igsh=ZHdxdzYwa2lyZHpj&utm_source=qr" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nathan-romeri-b53630311/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Nathan-Romeri" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://discord.gg/BbvsUZm3jm" target="_blank" title="Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+        </div>
+    </header>
+    <section class="section-banner">
+        <div class="banner-content">
+            <h1>Skills</h1>
+            <p>Discover the skills acquired during my BUT Informatique, covering various fields such as web development, UML modeling, and programming.</p>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="boxed text-center">
+            <div class="filter-buttons">
+                <button class="filter-btn" data-category="all">All</button>
+                <button class="filter-btn" data-category="web">Web</button>
+                <button class="filter-btn" data-category="uml-sql">DataBase</button>
+                <button class="filter-btn" data-category="dev">Dev</button>
+                <button class="filter-btn" data-category="others">Others</button>
+            </div>
+            <div class="flex gap20">
+                <div class="w25 skill" data-category="web">
+                    <img src="img/html-logo.png">
+                    <h3>HTML</h3>
+                </div>
+                <div class="w25 skill" data-category="web">
+                    <img src="img/css-logo.png">
+                    <h3>CSS</h3>
+                </div>
+                <div class="w25 skill" data-category="web">
+                    <img src="img/js-logo.png">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="w25 skill" data-category="uml-sql">
+                    <img src="img/sql-logo.png">
+                    <h3>Postgre SQL</h3>
+                </div>
+                <div class="w25 skill" data-category="dev">
+                    <img src="img/csharp-logo.png">
+                    <h3>C#</h3>
+                </div>
+                <div class="w25 skill" data-category="web">
+                    <img src="img/php-logo.png">
+                    <h3>PHP</h3>
+                </div>
+                <div class="w25 skill" data-category="others">
+                    <img src="img/git-logo.png">
+                    <h3>GIT</h3>
+                </div>
+                <div class="w25 skill" data-category="others">
+                    <img src="img/figma-logo.png">
+                    <h3>Figma</h3>
+                </div>
+                <div class="w25 skill" data-category="others">
+                    <img src="img/wordpress-logo.png">
+                    <h3>WordPress</h3>
+                </div>
+                <div class="w25 skill" data-category="uml-sql">
+                    <img src="img/uml-logo.png">
+                    <h3>UML</h3>
+                </div>
+                <div class="w25 skill" data-category="dev">
+                    <img src="img/python-logo.png">
+                    <h3>Python</h3>
+                </div>
+                <div class="w25 skill" data-category="others">
+                    <img src="img/oracle-logo.png">
+                    <h3>Oracle VM VirtualBox</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-copyright">&copy; 2024 Nathan Romeri</p>
+            <div class="back-to-top" onclick="scrollToTop()">
+                <span>^</span>
+            </div>
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
