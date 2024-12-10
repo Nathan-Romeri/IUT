@@ -1,0 +1,55 @@
+img.lightbox{
+    width: 300px;
+}
+
+#anes{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255,127,0,.2);
+}
+
+#box{
+    margin: calc(10vh - 20px) auto;
+    padding: 20px;
+    width: fit-content;
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 4px;
+}
+
+#box img{
+    height: 80vh;
+}
+
+#close{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.8);
+    box-shadow: 0 0 2px black;
+    color: #888888;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#close:hover{
+    background-color: rgba(255,255,255,1);
+    color: #333333;
+    box-shadow: 0 0 4px black;
+    transform: rotate(360deg);
+}
+
+#box.out{
+    transform: translateX(120vw) rotate(30deg);
+}
